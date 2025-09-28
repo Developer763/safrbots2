@@ -3,8 +3,8 @@ from telebot import types
 import os
 from collections import defaultdict
 
-TOKEN = os.getenv("BOT_TOKEN")
-OWNER_ID = int(os.getenv("OWNER_ID", "123456789"))
+TOKEN = os.getenv("8347021575:AAET7hZLnsAuqROs35GD9G08CWhHEM6sVBE")
+OWNER_ID = int(os.getenv("OWNER_ID", "7294123971"))
 bot = telebot.TeleBot(TOKEN)
 
 # In-memory storage
